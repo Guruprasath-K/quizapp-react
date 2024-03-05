@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Candara, sans-serif;
+  background-image: url('quiz1.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  background-color: #e8751a; 
+  border: none;
+  color: rgb(5, 5, 5);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #fda403; 
+}
+
+.activeButton {
+  background-color: #c51350; 
+}
+
+div.questionContainer {
+  background-color: #d1cebd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #facf5a 0%, #ff5959 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #070707;
+  background: linear-gradient(to bottom, #facf5a 0%, #ff5959 100%);
+  width: 30%;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div.subjectContainer {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+div.subjectButtons {
+  text-align: center;
+}
+
+button.subjectButton {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.subjectButton:hover {
+  background-color: #005f78;
+}
+
+/* Add stylings for the result div */
+div.resultContainer {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for result text */
+.resultText {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for individual result items */
+.resultItem {
+  margin-bottom: 10px;
+}
+
+/* Style for correct answer */
+.correctAnswer {
+  color: green;
+}
+
+/* Style for incorrect answer */
+.incorrectAnswer {
+  color: red;
+}
